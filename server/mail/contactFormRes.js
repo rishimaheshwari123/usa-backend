@@ -1,5 +1,5 @@
-exports.contactUsEmail = (email, firstname,  message, phoneNo) => {
-  return `<!DOCTYPE html>
+exports.contactUsEmail = (email, firstname, message, phoneNo) => {
+    return `<!DOCTYPE html>
   <html>
   
   <head>
@@ -70,7 +70,7 @@ exports.contactUsEmail = (email, firstname,  message, phoneNo) => {
           <div class="message">Contact Form Confirmation</div>
           <div class="body">
               <p>Dear Admin</p>
-              <p>New COntact Form Detials 
+              <p>New Contact Form Detials 
               </p>
                 <p>Name: ${firstname} </p>
               <p>Email: ${email}</p>
