@@ -42,6 +42,8 @@ cloudinaryConnect();
 
 // routes  
 app.use("/api/v1/auth", require("./routes/authRoute"))
+app.use("/api/v1/blog", require("./routes/blogRoute"))
+app.use("/api/v1/image", require("./routes/imageRoute"))
 
 
 
